@@ -133,7 +133,7 @@ export default {
   },
   computed: {
     srcList() {
-      return this.data.map((item) => server_URL + item.thumb);
+      return this.data.map((item) => item.thumb);
     },
   },
   methods: {
