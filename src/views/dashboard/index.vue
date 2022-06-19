@@ -1,30 +1,14 @@
 <template>
-  <div class="dashboard-container">
-    <div class="dashboard-text">欢迎使用个人博客后台</div>
-  </div>
+  <div class="app-container">欢迎使用个人博客后台</div>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
+import { findBlog } from "@/api/blog";
 
 export default {
   name: "Dashboard",
-  // computed: {
-  //   ...mapGetters([
-  //     'name'
-  //   ])
-  // }
 };
 </script>
 
-<style lang="scss" scoped>
-.dashboard {
-  &-container {
-    margin: 30px;
-  }
-  &-text {
-    font-size: 30px;
-    line-height: 46px;
-  }
-}
-</style>
+<style lang="scss" scoped></style>
